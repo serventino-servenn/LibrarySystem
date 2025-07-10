@@ -15,23 +15,22 @@ A simple console-based Java application to manage a library's collection of book
 ## How to Use
 
 1. Compile the project (all `.java` files):
-
-```bash
-javac Main.java Library.java Book.java TestLibrary.java
+    ```bash
+    javac Main.java Library.java Book.java TestLibrary.java
 
 2.  Run the program:
-```bash
-java Main
+    ```bash
+    java Main
 
 3. Follow the on-screen menu prompts.
     Note: This program assumes the user will enter correct inputs
 
--Numeric inputs for number of copies
--Book names and authors as text without empty strings
+- Numeric inputs for number of copies
+- Book names and authors as text without empty strings
 - Multiple books for borrow/return operations separated by commas(eg.,Book1,Book2,Book3)
 
 ## Project Structure
--Main.java : Entry point that starts the CLI interface
+- Main.java : Entry point that starts the CLI interface
 - TestLibrary.java: Handles user input and display menu options
 - Library.java: Contains code logic for managing books
 - Book.java: Represents a book with details like author,title,year, and availability
@@ -48,5 +47,5 @@ java Main
 - Implement user management and borrowing history
 - Add GUI interface using JavaFx or Swing
 
-##License
+## License
 This project is open-source and free to use 
