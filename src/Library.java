@@ -36,7 +36,7 @@ public class Library {
       for(String bookName: books){
         Book book = library.get(bookName.toLowerCase());
         if(book == null){
-            System.out.println("Bppk \""+ bookName +"\" not found in the library");
+            System.out.println("Book \""+ bookName +"\" not found in the library");
             continue;
         }
         if(book.getBooksAvailable()> 0){
