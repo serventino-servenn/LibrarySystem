@@ -31,7 +31,7 @@ public class Library {
       return true;
     }
 
-    //issue a books
+    //issue a book/s
     public void issueBooks( List<String> books){
       for(String bookName: books){
         Book book = library.get(bookName.toLowerCase());
@@ -49,7 +49,7 @@ public class Library {
       }
     }
     
-    //return  a books
+    //return  a book/s
     public void returnBooks(List<String> books) {
         for (String bookName : books) {
             Book book = library.get(bookName.toLowerCase());
